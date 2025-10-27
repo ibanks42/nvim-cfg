@@ -18,12 +18,17 @@ return {
       -- false: Disables all plugins.
     },
   },
+  {
+    "rockyzhang24/arctic.nvim",
+    branch = "v2",
+    dependencies = { "rktjmp/lush.nvim" },
+  },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "astrotheme",
+      colorscheme = "arctic",
     },
   },
 }

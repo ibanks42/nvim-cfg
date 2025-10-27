@@ -3,12 +3,12 @@ return {
     "folke/trouble.nvim",
     opts = { use_diagnostic_signs = true },
   },
-
-  "nvim-lspconfig",
-  opts = {
-    inlay_hints = { enabled = false },
+  {
+    "nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
+    },
   },
-
   {
     "hrsh7th/nvim-cmp",
     dependencies = { "hrsh7th/cmp-emoji" },

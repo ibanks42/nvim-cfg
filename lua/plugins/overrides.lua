@@ -17,7 +17,6 @@ return {
       table.insert(opts.sources, { name = "emoji" })
     end,
   },
-
   {
     "nvim-telescope/telescope.nvim",
     keys = {
@@ -27,6 +26,14 @@ return {
           require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root })
         end,
         desc = "Find Plugin File",
+      },
+    },
+  },
+  {
+    "folke/snacks.nvim",
+    opts = {
+      indent = {
+        enabled = false,
       },
     },
   },

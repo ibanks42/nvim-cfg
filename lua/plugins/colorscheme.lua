@@ -19,6 +19,11 @@ return {
     },
   },
   {
+    "Mofiqul/vscode.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
     "rockyzhang24/arctic.nvim",
     branch = "v2",
     dependencies = { "rktjmp/lush.nvim" },
@@ -28,7 +33,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "arctic",
+      colorscheme = "vscode",
     },
   },
 }
